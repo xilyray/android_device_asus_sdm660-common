@@ -1,4 +1,4 @@
-on init
+on early-boot
     # Notification LED
     chown system system /sys/class/leds/red/blink
     chown system system /sys/class/leds/red/brightness
