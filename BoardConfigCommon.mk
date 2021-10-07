@@ -5,7 +5,6 @@
 #
 
 COMMON_PATH := device/asus/sdm660-common
-BUILD_BROKEN_DUP_RULES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -41,6 +40,10 @@ QCOM_BT_USE_BTNV := true
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
+
+# Build Broken
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
