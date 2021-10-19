@@ -161,6 +161,9 @@ sys.vendor.shutdown.waittime=500
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
 
+# Storage.xml moment
+persist.sys.binary_xml=false
+
 # UBWC
 vendor.video.disable.ubwc=1
 
