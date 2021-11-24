@@ -104,6 +104,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.sdm660 \
+    libmm-qcamera \
     Camera2 \
     GCamGOPrebuilt
 
