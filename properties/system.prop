@@ -13,9 +13,9 @@ ro.kernel.ebpf.supported=true
 ro.sf.force_light_brightness=1
 
 # Camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam
-persist.camera.privapp.list=org.codeaurora.snapcam
-vendor.camera.aux.packagelist=org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
+persist.camera.privapp.list=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
+vendor.camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
 
 # CNE
 persist.vendor.cne.feature=1
