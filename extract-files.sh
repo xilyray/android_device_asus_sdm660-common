@@ -89,3 +89,7 @@ if [ -z "${ONLY_COMMON}" ] && [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt
 fi
 
 "${MY_DIR}/setup-makefiles.sh"
+
+# Load camera.sdm660.so shim
+CAM_SDM660="$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
+patchelf --add-needed camera.sdm660_shim.so "$CAM_SDM660"
